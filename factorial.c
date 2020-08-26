@@ -5,7 +5,6 @@ double factorial(int m){
         return 1;
     else if(m<0){
         m=-1*m;
-        //total=m;   // for positive result
         for(n=(m-1);n>=1;n--)
             total=total*n;
         return total;
@@ -16,4 +15,3 @@ double factorial(int m){
         return total;
     }
 }
-
